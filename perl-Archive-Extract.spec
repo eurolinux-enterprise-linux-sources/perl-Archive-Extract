@@ -2,7 +2,7 @@ Name:           perl-Archive-Extract
 # Epoch to compete with core module from perl.spec
 Epoch:          1
 Version:        0.68
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Generic archive extracting mechanism
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -76,6 +76,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.68-3
+- Mass rebuild 2013-12-27
+
 * Tue May 28 2013 Petr Pisar <ppisar@redhat.com> - 1:0.68-2
 - Correct typo in dependencies
 
